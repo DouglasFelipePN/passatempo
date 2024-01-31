@@ -6,36 +6,48 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(40, 185, 60, 0.425);
 }
 
 header{
     color: white;
     text-align: center;
+    background-image: linear-gradient(to bottom, rgb(35, 78, 46), rgb(2, 37, 20));
 }
 header h1{
-    background-image: linear-gradient(to bottom, rgb(75, 180, 206), rgb(35, 57, 97));
+    margin-left: 10vw;
+    margin-right: 10vw;
     padding: 10px;
     font-size: 2em;
 }
 main{
-    background-image: linear-gradient(to bottom,  rgb(35, 57, 97), rgb(11, 37, 85));
+    max-width: 600px;
+    margin: auto;
+    background-image: linear-gradient(to bottom,   rgb(2, 46, 5), rgb(3, 41, 6));
     padding: 20px;
 }
 main h2{
-    font-size: 1.5em;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(0, 180, 156, 0.418), rgba(7, 102, 7, 0.514));
+    padding: 5px;
+    font-size: 1.2em;
     color: white;
 }
 main h3{
     font-size: 1em;
-    color: white;
+    color: rgb(205, 245, 229);
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: justify;
 }
 
 footer{
-    font-size: 1em;
+    text-align: center;
     background-color: black;
     color: white;
 }
 
+footer h2{
+    padding: 20px;
+    font-size: 1em;
+}
